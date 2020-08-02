@@ -48,7 +48,6 @@ namespace WindBot.Game.AI
 
             _list = new List<DeckInstance>();
             _list.AddRange(_decks.Values);
-
             Logger.WriteLine("Decks initialized, " + _decks.Count + " found.");
         }
 
